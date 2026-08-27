@@ -142,6 +142,8 @@ python scripts/distance.py --cam-l 0 --cam-r 1 --calib data/calibration.json
 
 ## 自检（无需摄像头）
 
+![自检运行效果](assets/self_test_demo.png)
+
 ```bash
 python scripts/self_test.py
 ```
