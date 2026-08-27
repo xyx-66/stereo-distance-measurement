@@ -1,14 +1,4 @@
-#!/usr/bin/env python3
 """双目标定工具：实时采集棋盘格图像对并计算相机内外参。
-
-用法示例：
-  # 实时采集 + 标定（左摄像头 0，右摄像头 1，采集 15 对）
-  python scripts/calibrate.py --capture --cam-l 0 --cam-r 1 --pairs 15 --square 24
-
-  # 从已有图像对标定（图像对需同名，如 left_000.png / right_000.png）
-  python scripts/calibrate.py --left-dir data/captures/left --right-dir data/captures/right --square 24
-
-标定结果默认保存到 data/calibration.json。
 """
 
 from __future__ import annotations
