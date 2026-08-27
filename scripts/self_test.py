@@ -1,10 +1,3 @@
-#!/usr/bin/env python3
-"""合成数据端到端自检（无需摄像头、无需标定）。
-
-生成一张已知视差 d 的纹理平面左右图，运行 SGBM 立体匹配 + 深度换算，
-验证测得的距离与理论值 Z = f * B / d 一致。
-"""
-
 from __future__ import annotations
 
 import sys
