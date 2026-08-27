@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+
 """双目实时测距主程序：Z = f * B / d。
 
 用法示例：
